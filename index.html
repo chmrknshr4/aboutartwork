@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ウェルカムスペースの絵について</title>
+    <style>
+      body {
+            font-family: 'Playfair Display', serif;
+            line-height: 1.6;
+            margin: 0;
+            color: #333;
+            background-image: url('mucha_background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            min-height: 100vh;
+        }
+        h1 {
+            color: #222;
+            margin-bottom: 20px;
+            text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+            text-align: center;
+        }
+        h2 {
+            color: #222;
+            margin-bottom: 18px;
+            text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+            text-align: center;
+        }
+        p {
+            margin-bottom: 15px;
+            color: #222;
+            text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+        }
+        .image-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            height: 300px;
+            width: auto;
+            margin: 10px 0;
+        }
+        .description {
+            text-align: center;
+            margin: 20px;
+            padding: 28px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+	.description h1 {
+    text-align: center; /* h1要素のみ中央揃え */
+}
+
+.description p {
+    text-align: left; /* p要素は左揃え */
+}
+
+
+        .mucha-description { /*ミュシャ説明文専用のスタイル追加*/
+            text-align: left;
+            margin: 20px;
+            padding: 28px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="description">
+    	<h1>ウェルカムスペースの絵について</h1>
+        <p>ご覧いただきありがとうございます。</p>
+        <p>この絵は新婦の友人である赤堀紫乃様に描いていただいたものです。</p>
+        <p>新婦が好きな画家であるアルフォンス・ミュシャ風に描いてほしいという要望に見事に応えてくれて、新郎新婦共に感動の作品に仕上がりました。</p>
+        <p>作成に際して下記のミュシャの絵を参考にされたそうです。比較するとこの作品のクオリティの高さがより伝わるかと思います。</p>
+	<p>また、赤堀様からメイキング動画もいただきました。こちらも力作となっておりますので、ぜひご覧ください。</p>
+    </div>
+
+    <div class="image-container">
+        <img src="mucha_image1.jpg" alt="アルフォンス・ミュシャの作品画像1">
+        <img src="mucha_image2.jpg" alt="アルフォンス・ミュシャの作品画像2"><br>
+	<video width="350" controls>
+            <source src="making.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="mucha-description">
+	<h2>About Alfons Mucha</h2>
+        <p>アルフォンス・ミュシャ（1860-1939）は、アール・ヌーヴォーを代表するチェコ出身の画家・デザイナーです。</p>
+        <p>ミュシャの作風は、流れるような曲線、装飾的な要素、そして女性美の賛美を特徴とします。サラ・ベルナール主演の演劇ポスターで一躍脚光を浴び、その優美で華やかなデザインは「ミュシャ様式」として知られるようになりました。</p>
+        <p>ポスター、装飾パネル、カレンダーなど、商業デザインの分野で数多くの作品を残し、当時のパリで絶大な人気を博しました。また、祖国チェコへの愛国心から、晩年はスラヴ民族の歴史を描いた壮大な連作「スラヴ叙事詩」に情熱を注ぎました。</p>
+        <p>ミュシャの作品は、現代のイラストレーションやデザインにも大きな影響を与え続けています。</p>
+    </div>
+</body>
+</html>
